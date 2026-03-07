@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Object to SB 6346 - Stop the Washington State Income Tax</title>
+<meta name="description" content="One-click objection to Washington's unconstitutional income tax bill SB 6346. Opens your email pre-filled and ready to send to every Democrat in the Legislature.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+–ink: #1a1a1a;
+–paper: #f5f1eb;
+–red: #8b1a1a;
+–red-light: #a52a2a;
+–gold: #b8860b;
+–border: #c9c1b4;
+}
+
+- { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+font-family: ‘DM Sans’, sans-serif;
+background: var(–paper);
+color: var(–ink);
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 2rem 1.5rem;
+}
+
+.container {
+max-width: 680px;
+width: 100%;
+}
+
+.header {
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.seal {
+width: 64px;
+height: 64px;
+margin: 0 auto 1.25rem;
+border: 3px solid var(–red);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.8rem;
+}
+
+h1 {
+font-family: ‘DM Serif Display’, serif;
+font-size: 2rem;
+color: var(–red);
+line-height: 1.2;
+margin-bottom: 0.4rem;
+}
+
+.subtitle {
+font-size: 1rem;
+color: #666;
+margin-bottom: 1.5rem;
+}
+
+.divider {
+width: 80px;
+height: 2px;
+background: var(–gold);
+margin: 0 auto 0;
+}
+
+.info {
+background: #fff;
+border: 1px solid var(–border);
+border-radius: 8px;
+padding: 1.5rem;
+margin-bottom: 1.5rem;
+font-size: 0.95rem;
+line-height: 1.7;
+color: #333;
+}
+
+.info strong { color: var(–ink); }
+
+.info ul {
+margin: 0.5rem 0 0 1.25rem;
+padding: 0;
+}
+
+.info ul li { margin-bottom: 0.25rem; }
+
+.recipient-count {
+text-align: center;
+font-size: 0.9rem;
+color: #666;
+margin-bottom: 0.75rem;
+}
+
+.recipient-count span {
+font-weight: 700;
+color: var(–red);
+}
+
+.buttons {
+text-align: center;
+margin-bottom: 1.5rem;
+}
+
+.btn-send {
+display: inline-block;
+background: var(–red);
+color: #fff;
+font-family: ‘DM Sans’, sans-serif;
+font-size: 1.15rem;
+font-weight: 700;
+letter-spacing: 0.04em;
+text-decoration: none;
+padding: 1rem 2.5rem;
+border-radius: 6px;
+transition: background 0.2s, transform 0.15s;
+box-shadow: 0 4px 16px rgba(139,26,26,0.2);
+margin-bottom: 0.75rem;
+border: none;
+cursor: pointer;
+}
+
+.btn-send:hover {
+background: var(–red-light);
+transform: translateY(-1px);
+box-shadow: 0 6px 20px rgba(139,26,26,0.3);
+}
+
+.btn-send:active { transform: translateY(0); }
+
+.btn-gov {
+display: inline-block;
+background: var(–gold);
+color: #fff;
+font-family: ‘DM Sans’, sans-serif;
+font-size: 0.95rem;
+font-weight: 700;
+text-decoration: none;
+padding: 0.75rem 1.75rem;
+border-radius: 6px;
+transition: background 0.2s, transform 0.15s;
+box-shadow: 0 3px 12px rgba(184,134,11,0.2);
+}
+
+.btn-gov:hover {
+background: #9a7209;
+transform: translateY(-1px);
+}
+
+.note {
+font-size: 0.82rem;
+color: #888;
+line-height: 1.6;
+max-width: 520px;
+margin: 0 auto 1rem;
+text-align: center;
+}
+
+.toggle-btn {
+display: inline-block;
+margin-top: 0.5rem;
+font-size: 0.82rem;
+color: var(–red);
+text-decoration: underline;
+cursor: pointer;
+background: none;
+border: none;
+font-family: inherit;
+}
+
+.fallback {
+display: none;
+margin-top: 1rem;
+background: #fff;
+border: 1px solid var(–border);
+border-radius: 8px;
+padding: 1.5rem;
+}
+
+.fallback h3 {
+font-family: ‘DM Serif Display’, serif;
+font-size: 1.05rem;
+margin-bottom: 0.5rem;
+color: var(–red);
+}
+
+.fallback textarea {
+width: 100%;
+font-family: ‘DM Sans’, monospace;
+font-size: 0.78rem;
+padding: 0.6rem;
+border: 1px solid var(–border);
+border-radius: 4px;
+resize: vertical;
+margin-bottom: 0.5rem;
+background: #fafaf8;
+}
+
+.copy-btn {
+background: var(–gold);
+color: #fff;
+border: none;
+padding: 0.45rem 1.1rem;
+border-radius: 4px;
+font-family: ‘DM Sans’, sans-serif;
+font-weight: 600;
+font-size: 0.82rem;
+cursor: pointer;
+transition: background 0.2s;
+margin-bottom: 1rem;
+}
+
+.copy-btn:hover { background: #9a7209; }
+
+@media (max-width: 480px) {
+h1 { font-size: 1.6rem; }
+.btn-send { width: 100%; padding: 1rem; }
+.btn-gov { width: 100%; text-align: center; }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="seal">&#9878;</div>
+    <h1>Object to SB 6346</h1>
+    <p class="subtitle">Stop the Washington State Income Tax</p>
+    <div class="divider"></div>
+  </div>
+
+  <div class="info">
+    <strong>What this does:</strong> Opens your email app with a pre-written objection to SB 6346 addressed to every Democratic legislator in Olympia &mdash; the caucus pushing this bill.
+    <br><br>
+    <strong>What you need to do:</strong>
+    <ul>
+      <li>Add your name and city at the bottom of the email</li>
+      <li>Hit Send</li>
+      <li>Then click the gold button to message Governor Ferguson directly</li>
+    </ul>
+  </div>
+
+  <p class="recipient-count">Sending to <span id="countDisplay">0</span> <span>Democratic legislators</span></p>
+
+  <div class="buttons">
+    <a class="btn-send" id="mailtoLink" href="#">&#9993;&ensp;Open &amp; Send Your Objection</a>
+    <br><br>
+    <a class="btn-gov" href="https://governor.wa.gov/contacting-governor/contacting-governors-office/send-gov-ferguson-e-message" target="_blank" rel="noopener">&#127963;&ensp;Send to Gov. Ferguson (Web Form)</a>
+  </div>
+
+  <p class="note">
+    Gov. Ferguson does not accept direct email &mdash; he uses a web form. Click the gold button to open it, then paste the letter from the copy section below.
+  </p>
+
+  <div style="text-align:center;">
+    <button class="toggle-btn" onclick="document.getElementById('fallback').style.display='block'; this.style.display='none';">
+      Need to copy/paste manually? Click here &darr;
+    </button>
+  </div>
+
+  <div class="fallback" id="fallback">
+    <h3>All Recipient Emails</h3>
+    <textarea id="emailsBox" readonly style="height:120px;"></textarea>
+    <button class="copy-btn" onclick="copyField('emailsBox', this)">Copy Emails</button>
+
+```
+<h3>Subject Line</h3>
+<textarea id="subjectBox" readonly style="height:36px;"></textarea>
+<button class="copy-btn" onclick="copyField('subjectBox', this)">Copy Subject</button>
+
+<h3>Email Body</h3>
+<textarea id="bodyBox" readonly style="height:400px;"></textarea>
+<button class="copy-btn" onclick="copyField('bodyBox', this)">Copy Body</button>
+```
+
+  </div>
+</div>
+
+<script>
+// Democrats only — from official WA Legislature roster (app.leg.wa.gov/memberemail)
+// 29 Senate Democrats + 58 House Democrats = 87 total
+const emails = [
+  // SENATE DEMOCRATS (29)
+  "Emily.Alvarado@leg.wa.gov",
+  "Jessica.Bateman@leg.wa.gov",
+  "Mike.Chapman@leg.wa.gov",
+  "Annette.Cleveland@leg.wa.gov",
+  "Steve.Conway@leg.wa.gov",
+  "Adrian.Cortes@leg.wa.gov",
+  "Manka.Dhingra@leg.wa.gov",
+  "Noel.Frame@leg.wa.gov",
+  "Drew.Hansen@leg.wa.gov",
+  "Bob.Hasegawa@leg.wa.gov",
+  "Victoria.Hunt@leg.wa.gov",
+  "Claudia.Kauffman@leg.wa.gov",
+  "Deborah.Krishnadasan@leg.wa.gov",
+  "Marko.Liias@leg.wa.gov",
+  "Liz.Lovelett@leg.wa.gov",
+  "John.Lovick@leg.wa.gov",
+  "Twina.Nobles@leg.wa.gov",
+  "Tina.Orwall@leg.wa.gov",
+  "Jamie.Pedersen@leg.wa.gov",
+  "Marcus.Riccelli@leg.wa.gov",
+  "June.Robinson@leg.wa.gov",
+  "Rebecca.Saldana@leg.wa.gov",
+  "Jesse.Salomon@leg.wa.gov",
+  "Sharon.Shewmake@leg.wa.gov",
+  "Vandana.Slatter@leg.wa.gov",
+  "Derek.Stanford@leg.wa.gov",
+  "Yasmin.Trudeau@leg.wa.gov",
+  "Javier.Valdez@leg.wa.gov",
+  "Claire.Wilson@leg.wa.gov",
+
+  // HOUSE DEMOCRATS (58)
+  "April.Berg@leg.wa.gov",
+  "Steve.Bergquist@leg.wa.gov",
+  "Adam.Bernbaum@leg.wa.gov",
+  "Liz.Berry@leg.wa.gov",
+  "Dan.Bronoske@leg.wa.gov",
+  "Lisa.Callan@leg.wa.gov",
+  "Julio.Cortes@leg.wa.gov",
+  "Lauren.Davis@leg.wa.gov",
+  "Beth.Doglio@leg.wa.gov",
+  "Brandy.Donaghy@leg.wa.gov",
+  "Davina.Duerr@leg.wa.gov",
+  "Debra.Entenman@leg.wa.gov",
+  "Darya.Farivar@leg.wa.gov",
+  "Jake.Fey@leg.wa.gov",
+  "Joe.Fitzgibbon@leg.wa.gov",
+  "Mary.Fosse@leg.wa.gov",
+  "Roger.Goodman@leg.wa.gov",
+  "Mia.Gregerson@leg.wa.gov",
+  "David.Hackney@leg.wa.gov",
+  "Zach.Hall@leg.wa.gov",
+  "Natasha.Hill@leg.wa.gov",
+  "Laurie.Jinkins@leg.wa.gov",
+  "Shelley.Kloba@leg.wa.gov",
+  "Mari.Leavitt@leg.wa.gov",
+  "Debra.Lekanoff@leg.wa.gov",
+  "Nicole.Macri@leg.wa.gov",
+  "Sharlett.Mena@leg.wa.gov",
+  "Melanie.Morgan@leg.wa.gov",
+  "Greg.Nance@leg.wa.gov",
+  "Edwin.Obras@leg.wa.gov",
+  "Timm.Ormsby@leg.wa.gov",
+  "Lillian.Ortiz-Self@leg.wa.gov",
+  "Lisa.Parshley@leg.wa.gov",
+  "Dave.Paul@leg.wa.gov",
+  "Strom.Peterson@leg.wa.gov",
+  "Gerry.Pollet@leg.wa.gov",
+  "Alex.Ramel@leg.wa.gov",
+  "Julia.Reed@leg.wa.gov",
+  "Kristine.Reeves@leg.wa.gov",
+  "Adison.Richards@leg.wa.gov",
+  "Alicia.Rule@leg.wa.gov",
+  "Cindy.Ryu@leg.wa.gov",
+  "Osman.Salahuddin@leg.wa.gov",
+  "Sharon.Santos@leg.wa.gov",
+  "Shaun.Scott@leg.wa.gov",
+  "Clyde.Shavers@leg.wa.gov",
+  "Tarra.Simmons@leg.wa.gov",
+  "Larry.Springer@leg.wa.gov",
+  "Chris.Stearns@leg.wa.gov",
+  "Monica.Stonier@leg.wa.gov",
+  "Chipalo.Street@leg.wa.gov",
+  "Jamila.Taylor@leg.wa.gov",
+  "My-Linh.Thai@leg.wa.gov",
+  "Steve.Tharinger@leg.wa.gov",
+  "Brianna.Thomas@leg.wa.gov",
+  "Joe.Timmons@leg.wa.gov",
+  "Amy.Walen@leg.wa.gov",
+  "Janice.Zahn@leg.wa.gov"
+];
+
+const uniqueEmails = [...new Set(emails)];
+document.getElementById("countDisplay").textContent = uniqueEmails.length;
+
+const subject = "FORMAL OBJECTION to SB 6346 — Kill the Unconstitutional Income Tax";
+
+const body = `To the Members of the Washington State Legislature and Governor Ferguson:
+
+I write in strong opposition to Senate Bill 6346, which imposes a 9.9% income tax on household income above $1 million. This bill is unconstitutional, economically reckless, deliberately structured to evade voter accountability, and designed from the ground up to expand into a broad-based income tax on all Washingtonians.
+
+
+1. IT IS UNCONSTITUTIONAL
+
+Article VII, Section 1 of the Washington State Constitution requires that all taxes be "uniform upon the same class of property." A graduated income tax levied at 9.9% exclusively on income above $1 million is, by definition, not uniform. The Washington Supreme Court ruled in Culliton v. Chase (1933) that income is property under the state constitution and that a graduated income tax is unconstitutional. That ruling has never been overturned. Washington voters have rejected income tax proposals ten separate times, most recently in 2010 by a margin of 64% to 36%.
+
+
+2. YOU KILLED EVERY AMENDMENT TO KEEP IT A "MILLIONAIRES' TAX"
+
+If this were truly intended to remain a tax only on millionaires, the bill's sponsors had every opportunity to codify that promise into law. They refused. During the Senate Ways and Means Committee markup and the full Senate floor debate, Democrats rejected all Republican-sponsored amendments designed to lock in the $1 million threshold, including:
+
+- An amendment to double the income threshold to $2 million for couples filing jointly
+- An amendment to nullify the legislation unless voters approve a constitutional amendment explicitly allowing the income tax
+- An amendment to permanently prohibit lowering the $1 million threshold
+- An amendment to remove the anti-referendum clause and let voters have the final say
+
+Every single one was voted down on party lines. The refusal to lock in the threshold is not an oversight. It is the plan.
+
+
+3. THE BILL IS DELIBERATELY DESIGNED WITH "FLEXIBILITY" TO LOWER THE THRESHOLD
+
+House Majority Leader Joe Fitzgibbon said publicly that lawmakers "aren't looking at lowering the tax threshold" — but deliberately stopped short of saying it could never happen. Senate Majority Leader Jamie Pedersen stated outright: "We're not going to bind future legislatures."
+
+The bill's own architects are telling you, on the record, that a future legislature can lower the threshold to $500,000, $250,000, $100,000, or any number they choose — and nothing in this bill prevents it. Governor Ferguson's verbal promise not to support a tax below $1 million has zero binding legal force. It cannot survive a single election cycle. Once the mechanism exists, lowering the threshold requires nothing more than a simple majority vote.
+
+
+4. FERGUSON'S PROMISES ON SALES TAX AND B&O RELIEF CAN BE REVOKED WITHOUT VOTER APPROVAL
+
+The Governor and legislative Democrats are selling this bill as a net positive for working families and small businesses — citing expanded Working Families Tax Credits, sales tax exemptions on hygiene products and diapers, and B&O tax relief for businesses grossing under $600,000.
+
+They are not permanent. Every single one of these "offsets" is a statutory provision that can be repealed or modified by a future legislature with a simple majority vote. No voter approval is required. The income tax creates a permanent new revenue stream and a permanent new tax infrastructure. The relief provisions are optional add-ons that can be stripped away at any time. When the next budget deficit hits, the Legislature will face a choice: cut spending or claw back the relief. History tells us which option Olympia will choose.
+
+This is the bait and switch. The income tax is the permanent fixture. The sales tax relief and B&O breaks are the bait. And Ferguson's promises are worth exactly as much as his term in office.
+
+
+5. THE ANTI-REFERENDUM CLAUSE IS AN ATTACK ON DEMOCRATIC ACCOUNTABILITY
+
+SB 6346 includes a "necessity clause" declaring the tax "necessary for the support of the state government and its existing public institutions." This is a legal maneuver specifically designed to block citizens from challenging the tax through a referendum. Normally, opponents could collect signatures from 4% of registered voters to suspend the law and put it before voters. This clause eliminates that path.
+
+Instead, opponents must pursue a full citizen initiative requiring twice as many signatures. This is the same legislature that in 2024 overwhelmingly passed Initiative 2111 banning new statewide personal income taxes — with bipartisan votes of 76-21 in the House and 38-11 in the Senate. Two years later, you are overriding your own prohibition, carving out an exemption from I-2111, and blocking voters from having a direct say. If this tax is so popular, why are its sponsors terrified of letting voters weigh in?
+
+
+6. BUSINESSES AND WEALTH ARE ALREADY LEAVING
+
+This is not hypothetical. Jeff Bezos relocated to Florida in 2023. Tech executives from Microsoft and Amazon are buying homes in Las Vegas. Smead Capital moved from Seattle to Phoenix. Boeing moved its corporate headquarters to Chicago in 2001, relocated 787 Dreamliner assembly from Everett to South Carolina, and has been systematically shifting engineering jobs out of Washington for years. A 2024 SmartAsset study found Washington lost a net 222 high-earning millennial households between 2021 and 2022 — the eighth-highest loss in the nation.
+
+Microsoft President Brad Smith publicly warned that policies like this could inflict "lasting damage" on Washington's technology sector. Small business owners across the state are already developing exit strategies. When pass-through entities — partnerships, LLCs, S-corps — see their owners hit with 9.9% on distributive shares above $1 million, the rational move is to relocate to Nevada, Texas, or Florida. Washington's competitive advantage has always been no personal income tax. This bill destroys that advantage overnight.
+
+
+7. WHEN REVENUE FALLS SHORT, THE THRESHOLD WILL DROP TO THE REST OF US
+
+Here is the inevitable sequence:
+
+1. The Legislature passes SB 6346 and immediately budgets the projected $3.5-$3.7 billion in annual revenue into future spending.
+2. High-income earners begin relocating their taxable income to zero-income-tax states. Revenue from the approximately 21,000 affected filers falls short.
+3. A revenue shortfall opens. The spending has already been committed. Programs expanded. Employees hired.
+4. Rather than cut spending, the Legislature lowers the income threshold — to $500,000, then $250,000, then $100,000.
+5. Ordinary Washington families — the ones this tax was supposedly never going to touch — are now paying a state income tax on top of the nation's highest combined sales tax rates, B&O taxes, property taxes, and every other fee Olympia has layered on.
+
+The Tax Foundation has warned that concentrating revenue on roughly 21,000 filers makes this an extremely volatile source. When those filers have a bad year or leave, the revenue evaporates — but the spending doesn't.
+
+
+8. THE PEOPLE HAVE SPOKEN — REPEATEDLY
+
+Washington voters have been asked to approve a state income tax ten times in ninety years. They said yes exactly once, in 1932, and the Supreme Court struck it down. Every other time, voters rejected it. In 2010, voters rejected it 64% to 36%. In 2024, the Legislature itself codified Initiative 2111 banning income taxes with overwhelming bipartisan support.
+
+More than 100,000 citizens signed in to the House committee hearing AGAINST SB 6346 — the most opposition ever recorded for any bill in state history. Over 61,000 signed in against it in the Senate hearing. The Legislature's response: waive the hearing waiting period, limit testimony to one hour, and insert a clause blocking referendum.
+
+This is not representative government. This is legislative coercion.
+
+
+CONCLUSION
+
+SB 6346 is unconstitutional under Article VII of the Washington State Constitution. It overrides the will of the voters. It was deliberately drafted without any mechanism to permanently restrict the threshold to millionaires. Its sponsors rejected every amendment that would have done so. Its "tax relief" provisions can be revoked at any time without voter approval. Its anti-referendum clause prevents citizens from exercising their constitutional right to challenge it. And the revenue it promises will evaporate as high earners leave — creating the exact deficit that will be used to justify expanding the tax to everyone else.
+
+This is not a millionaires' tax. It is a trojan horse for a universal state income tax.
+
+Kill this bill. Respect the Constitution. Respect the voters.
+
+Respectfully but forcefully submitted,
+
+[YOUR NAME]
+[YOUR CITY], Washington`;
+
+// Build mailto
+const to = uniqueEmails.join(",");
+const mailtoUrl = "mailto:" + encodeURIComponent(to).replace(/%40/g, "@").replace(/%2C/g, ",")
+  + "?subject=" + encodeURIComponent(subject)
+  + "&body=" + encodeURIComponent(body);
+
+document.getElementById("mailtoLink").href = mailtoUrl;
+
+// Fill fallback fields
+document.getElementById("emailsBox").value = uniqueEmails.join(", ");
+document.getElementById("subjectBox").value = subject;
+document.getElementById("bodyBox").value = body;
+
+function copyField(id, btn) {
+  const el = document.getElementById(id);
+  el.select();
+  el.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(el.value).then(() => {
+    const orig = btn.textContent;
+    btn.textContent = "Copied!";
+    btn.style.background = "#2e7d32";
+    setTimeout(() => { btn.textContent = orig; btn.style.background = ""; }, 2000);
+  }).catch(() => {
+    document.execCommand("copy");
+    const orig = btn.textContent;
+    btn.textContent = "Copied!";
+    setTimeout(() => { btn.textContent = orig; }, 2000);
+  });
+}
+</script>
+
+</body>
+</html>
